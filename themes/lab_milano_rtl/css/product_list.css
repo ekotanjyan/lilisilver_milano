@@ -1,0 +1,99 @@
+.lablistproducts.list  .left-block .actions,
+.lablistproducts.grid .product-flags,
+.lablistproducts.grid .availability,
+.lablistproducts.grid .color-list-container,
+.lablistproducts.grid .product-desc,
+.lablistproducts.grid .comments_note{
+	display:none;
+}
+.lablistproducts > li{
+	margin-bottom:30px;
+	-webkit-transition: all 300ms ease;
+	-moz-transition: all 300ms ease;
+	-ms-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+	transition: all 300ms ease;
+}
+.lablistproducts.list  h5{
+	margin:0 0 15px 0;
+}
+.lablistproducts.list  .product-name{
+	font-size:20px;
+}
+.lablistproducts.list .comments_note{
+	margin-bottom:15px;
+}
+.lablistproducts.list .availability{
+	display: block;
+    margin-bottom: 15px;
+}
+.lablistproducts.list .content_price{
+	margin-bottom:30px;
+}
+.lablistproducts.list .content_price .price{
+	font-size:20px;
+	line-height:1;
+}
+.lablistproducts.list .product-desc{
+	color: #666666;
+    font-size: 14px;
+    line-height: 22px;
+}
+.lablistproducts.list .actions{
+	opacity: 1;
+    overflow: hidden;
+    padding: 0;
+    position: static;
+}
+.lablistproducts.list .add-to-links li{
+	float:left;
+	display:inline;
+	margin-right: 10px;
+}
+.lablistproducts.list .add-to-links li a{
+	border: 1px solid #aaaaaa;
+    color: #444444;
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    width: 35px;
+}
+.lablistproducts.list .add-to-links li.lab-cart a{
+	font-family: "Montserrat",sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 0 15px;
+    text-shadow: 0 0 0;
+    text-transform: uppercase;
+    width: auto;
+}
+.lablistproducts.list .add-to-links li.lab-cart i{display:none;}
+.lablistproducts.list .add-to-links li.lab-cart span{
+	background: none;
+    border: medium none;
+    display: block;
+    padding: 0;
+}
+.lablistproducts.list .add-to-links li a.active,
+.lablistproducts.list .add-to-links li a.checked,
+.lablistproducts.list .add-to-links li a:hover{
+	background-color: #ff5555;
+    border-color: #ff5555;
+    color: #fff;
+}
+ul.product_list .color-list-container {
+  margin-bottom: 12px; }
+  ul.product_list .color-list-container ul li {
+    display: inline-block;
+    border: 1px solid #d6d4d4;
+    width: 26px;
+    height: 26px; }
+    ul.product_list .color-list-container ul li a {
+      display: block;
+      width: 22px;
+      height: 22px;
+      margin: 1px; }
+      ul.product_list .color-list-container ul li a img {
+        display: block;
+        width: 22px;
+        height: 22px; }

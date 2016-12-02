@@ -1,0 +1,59 @@
+/* color:#9b59b6  */
+.cart_block .cart-info .quantity-formated,
+#header .cart_block .price,
+
+
+.lab_custommenu div.lab_menu .parentMenu a:hover, .lab_custommenu div.lab_menu .parentMenu span.block-title:hover, .lab_custommenu #lab_menu_link ul li a.act, .lab_custommenu #lab_menu_link ul li a:hover, .lab_custommenu div.lab_menu .slow a, .lab_custommenu div.lab_menu.active a, .lab_custommenu div.lab_menu.act, .lab_custommenu div.lab_menu.act a,
+#lab_menu_cms .column a:hover, .itemMenu.level1 a.itemMenuName.level4:hover,
+.itemMenu.level1 a.itemMenuName.level3:hover,
+a:hover,.price,.our_price_display .price,
+.support-footer-inner .info-title i,.more-info-ii .idTabs li i,
+
+.footer-container #footer #block_contact_infos > div ul li i,
+.footer-container #footer .copyright a,
+.footer-container #footer a:hover,.labSearch .current:hover span,
+.tabs li i,.breadcrumb,#search_block_top .btn.button-search:hover,
+.dropdown .current:hover, .dropdown .toogle_content li a:hover, .dropdown .toogle_content li.selected span, .dropdown .toogle_content li.selected a,
+.dropdown .current:hover, .dropdown .toogle_content li a:hover, .dropdown .toogle_content li.selected span, .dropdown .toogle_content li.selected a,
+#categories_block_left li span.grower:hover + a, #categories_block_left li a:hover, #categories_block_left li a.selected,
+.content_sortPagiBar .display li.selected a, .content_sortPagiBar .display_m li.selected a,
+.content_sortPagiBar .display li a:hover, .content_sortPagiBar .display_m li a:hover,
+.labAccount a, .labLogin a{
+	color:#9b59b6;
+}
+
+/* background-color:#9b59b6 */
+.cart_block .cart-buttons a#button_order_cart:hover span,
+.footer-container #footer #social_block ul li a:hover,
+.al-style-2::before,
+.al-style-2::after,
+.box_loadMore::before,
+.lab-wrap .control.active,
+.lab-wrap .control.active a,
+.sdsblog-box-content .image_blog::before,
+.sdsblog-box-content .image_blog::after,
+.testimonials .owl-page:hover span, .testimonials .owl-page.active span,
+.lablistproducts .actions li a.active, .lablistproducts .actions li a.checked, .lablistproducts .actions li a:hover,
+#footer #newsletter_block_left .form-group .button-small:hover span,
+.nivo-controlNav a:hover, .nivo-controlNav a.active,
+.shopping_cart > a .ajax_cart_quantity,
+.top-pagination-content ul.pagination li > a:hover span, .bottom-pagination-content ul.pagination li > a:hover span,
+.mypresta_scrollup:hover,.laberthemes .lab_boxnp a:hover,
+.new-label, .sale-label,
+.box-info-product .exclusive span,
+#usefull_link_block li a:hover::before, .box-cart-bottom #wishlist_button_nopop:hover::before,
+.lablistproducts.list .add-to-links li a.active, .lablistproducts.list .add-to-links li a.checked, .lablistproducts.list .add-to-links li a:hover
+{
+	background-color:#9b59b6
+}
+/* border-color:#9b59b6 */
+.cart_block .cart-buttons a#button_order_cart:hover span,
+.banner-inner-big .border,
+.mypresta_scrollup:hover,.laberthemes .lab_boxnp a:hover,
+#usefull_link_block li a:hover::before, .box-cart-bottom #wishlist_button_nopop:hover::before,
+.top-pagination-content ul.pagination li > a:hover span, .bottom-pagination-content ul.pagination li > a:hover span,
+.lablistproducts .actions li a.active, .lablistproducts .actions li a.checked, .lablistproducts .actions li a:hover,
+#footer #newsletter_block_left .form-group .button-small:hover span,
+.lablistproducts.list .add-to-links li a.active, .lablistproducts.list .add-to-links li a.checked, .lablistproducts.list .add-to-links li a:hover{
+	border-color:#9b59b6
+}

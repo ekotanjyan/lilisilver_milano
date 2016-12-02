@@ -1,0 +1,412 @@
+.labmenu-i .navleft-container{
+	position:relative;
+	z-index:9;
+}
+.labvmegamenu_title {
+	background-color:#ff5555;
+    height: 55px;
+    padding-left: 50px;
+    position: relative;
+	cursor: pointer;
+	margin-bottom:5px;
+}
+
+.labvmegamenu_title h2 {
+	color: #fff;
+    font-family: "Montserrat",sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+	line-height:55px;
+}
+.labvmegamenu_title h2 i{
+	bottom: 0;
+    left: 20px;
+    line-height: 55px;
+    position: absolute;
+    top: 0;
+}
+.Labvmegamenu {
+	background-color: #ffffff;
+    padding: 0;
+    width: 100%;
+    z-index: 100;
+	position:relative;
+	border: 1px solid #ddd;
+}
+
+.Labvmegamenu.in{
+	display:block;
+	opacity:1;
+	-webkit-animation: zoomIn 300ms ease-in-out;
+	-moz-animation: zoomIn 300ms ease-in-out;
+	-ms-animation: zoomIn 300ms ease-in-out;
+	animation: zoomIn 300ms ease-in-out;
+}
+.Labvmegamenu.out{
+	visibility: hidden;
+	opacity:0;
+	-webkit-animation: zoomOut 300ms ease-in-out;
+	-moz-animation: zoomOut 300ms ease-in-out;
+	-ms-animation: zoomOut 300ms ease-in-out;
+	animation: zoomOut 300ms ease-in-out;
+}
+.Labvmegamenu  .parentMenu{border-bottom:1px solid #f2f2f2}
+.Labvmegamenu .lab_vermenu .parentMenu{background: none}
+.Labvmegamenu div.lab_vermenu {
+    padding: 0px;
+    /*width: 195px;*/
+    position: relative;
+}
+.Labvmegamenu div.popup {
+	display: none;
+}
+
+.box-popup {
+float:left;
+border: 1px solid #e5e5e3;
+background:  #FFFFFF;
+padding:20px 30px;
+margin: 0;
+-webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,0.1);
+-moz-box-shadow: 0 0 5px 0 rgba(0,0,0,0.1);
+-ms-box-shadow: 0 0 5px 0 rgba(0,0,0,0.1);
+-o-box-shadow: 0 0 5px 0 rgba(0,0,0,0.1);
+box-shadow: 0 0 5px 0 rgba(0,0,0,0.1);
+}
+.arrow-left-menu{
+	background: rgba(0, 0, 0, 0) url("../images/arrow-left-menu.png") no-repeat scroll 0 15px;
+    float: left;
+    height: 45px;
+    left: -9px;
+    padding: 0;
+    position: absolute;
+    width: 19px;
+    z-index: 1;  
+}
+/*.Labvmegamenu div.lab_vermenu .parentMenu{*/
+/*    width:100%;*/
+/*}*/
+.Labvmegamenu div.lab_vermenu .parentMenu a,
+.Labvmegamenu div.lab_vermenu .parentMenu span.block-title{
+	color: #444444;
+    display: block;
+    font-family: "Raleway",sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 50px;
+    padding: 0 15px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    word-wrap: break-word;
+}
+.Labvmegamenu div.lab_vermenu .parentMenu a .icon{
+	left: 20px;
+    position: absolute;
+    top: 18px;
+	-webkit-transition: all 300ms ease;
+	-moz-transition: all 300ms ease;
+	-ms-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+	transition: all 300ms ease;
+}
+.Labvmegamenu div.lab_vermenu .parentMenu a .icon0{
+
+}
+.Labvmegamenu div.lab_vermenu .parentMenu a .icon1{
+	opacity: 0;
+}
+.Labvmegamenu div.lab_vermenu .parentMenu a:hover .icon0{
+	opacity: 0;
+}
+.Labvmegamenu div.lab_vermenu .parentMenu a:hover .icon1{
+	opacity: 1;
+}
+.Labvmegamenu div.lab_vermenu .parentMenu a .icon-new,
+.Labvmegamenu div.lab_vermenu .parentMenu a .icon-hot{
+	background: #f6555d ;
+    color: #fff;
+    font-family: "PT Sans",sans-serif;
+    font-size: 10px;
+    left: 35%;
+    padding: 2px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 0;
+}
+.Labvmegamenu div.lab_vermenu .parentMenu a .icon-new:before,
+.Labvmegamenu div.lab_vermenu .parentMenu a .icon-hot:before{
+	-webkit-border-bottom-colors: none;
+    -webkit-border-left-colors: none;
+    -webkit-border-right-colors: none;
+    -webkit-border-top-colors: none;
+	
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+	
+	-ms-border-bottom-colors: none;
+    -ms-border-left-colors: none;
+    -ms-border-right-colors: none;
+    -ms-border-top-colors: none;
+	
+	-o-border-bottom-colors: none;
+    -o-border-left-colors: none;
+    -o-border-right-colors: none;
+    -o-border-top-colors: none;
+
+    border-color: #f6555d transparent transparent;
+    border-image: none;
+    border-style: solid;
+    border-width: 5px;
+    bottom: -9px;
+    content: "";
+    height: 5px;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    width: 5px;
+}
+.Labvmegamenu div.lab_vermenu .parentMenu a .icon-new{
+	background: #eec400 ;
+}
+.Labvmegamenu div.lab_vermenu .parentMenu a .icon-new:before{
+	border-color: #eec400 transparent transparent;
+}
+.Labvmegamenu div.lab_vermenu.labSub .parentMenu a:after,
+.Labvmegamenu div.lab_vermenu.labSub .parentMenu span.block-title:after{
+	content: "\f105";
+	bottom: 0;
+    font-family: fontawesome;
+    position: absolute;
+    right: 15px;
+    top: 0;
+}
+.Labvmegamenu div.lab_vermenu.noSub .parentMenu a:after, 
+.Labvmegamenu div.lab_vermenu.noSub .parentMenu span.block-title:after{
+	display:none;
+}
+.Labvmegamenu div.lab_vermenu.noSub .parentMenu a, 
+.Labvmegamenu div.lab_vermenu.noSub .parentMenu span.block-title{
+
+}
+
+.Labvmegamenu div.lab_vermenu .parentMenu span.block-title:hover, .Labvmegamenu div.lab_vermenu .parentMenu a:hover{
+  color: #ff5555
+}
+.Labvmegamenu #lab_vermenu_link ul li a.act,
+ .Labvmegamenu #lab_vermenu_link ul li a:hover,
+  .Labvmegamenu div.lab_vermenu.act .parentMenu a,
+  .Labvmegamenu div.lab_vermenu.active .parentMenu a
+{
+	color: #ff5555
+}
+.Labvmegamenu div.lab_vermenu .parentMenu.noSubMenu a:hover,
+ .Labvmegamenu div.lab_vermenu .parentMenu.noSubMenu span.block-title:hover,
+ .Labvmegamenu div.lab_vermenu.act .parentMenu.noSubMenu a
+ {
+background-image: none    
+}
+.custom-menu-right { float: left; margin: 0;}
+.Labvmegamenu .column.blockright { width: 250px; }
+.menu-right-title {
+    background: url("../images/bg-bottom1-title.png") repeat-x left bottom;
+    float: left;
+    margin: 0 0 20px 0;
+    width: 100%;
+}
+.menu-right-title h2 {
+    background: url("../images/bg-f-title6.png") no-repeat scroll left bottom;
+    color: #777777;
+    font-family: 'titilliumwebsemibold';
+    font-size: 16px;
+    margin: 0;
+    padding: 0 0 8px;
+    text-transform: uppercase;
+}
+.menu-right-images { float: left;}
+.m-images { float: left;}
+.m-images.col1 { margin:20px 0 0;}
+.Labvmegamenu div.lab_vermenu.last .parentMenu.noSubMenu{
+    border: 0;
+}
+/*.Labvmegamenu div.lab_vermenu:hover,.Labvmegamenu div.lab_vermenu .active{*/
+/*    width: 400px;*/
+/*}*/
+.navleft-container { 
+	position: relative;
+	margin: 0}
+.cms-index-index .navleft-container{margin: 0 0 50px}
+.Labvmegamenu div.popup a {
+    text-decoration: none;
+    display:block;
+}
+.Labvmegamenu .itemverMenu h4.level3,
+.Labvmegamenu .itemverMenu a.level3{
+    color: #747474;
+    display: inline-block;
+    font-family: "Montserrat",sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 30px;
+    padding: 0;
+    text-transform: uppercase;
+    width: 100%;
+}
+.Labvmegamenu .itemverMenu h4.level3 span,
+.Labvmegamenu .itemverMenu a.level3 span{
+	position:relative;
+}
+.Labvmegamenu .itemverMenu h4.level3,
+.Labvmegamenu .itemSubMenu h4.level4 span{
+    color: #897725;
+}
+.Labvmegamenu .itemverMenu h4.level3:hover, .Labvmegamenu .itemverMenu a.level3:hover{
+color:#ff5555 
+}
+.Labvmegamenu .itemSubMenu h4.level4,
+.Labvmegamenu .itemSubMenu a.level4,
+.Labvmegamenu .itemSubMenu h4.level3,
+.Labvmegamenu .itemSubMenu a.level3,
+.Labvmegamenu .itemverMenu a.level4.nochild{
+	color: #888787;
+    font-family: "PT Sans",sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 25px;
+    padding: 0;
+    text-transform: capitalize;
+	
+}
+
+.Labvmegamenu .itemSubMenu h4.level4:hover,
+.Labvmegamenu .itemSubMenu a.level4:hover,
+.Labvmegamenu .itemSubMenu h4.level3:hover,
+.Labvmegamenu .itemSubMenu a.level3:hover,
+.Labvmegamenu .itemverMenu a.level4.nochild:hover{
+color:#ff5555 ;
+}
+.Labvmegamenu div.popup a.act{color: #f36b6c;}
+
+.Labvmegamenu div.column {
+    float:left;
+    width:170px;
+    margin-right: 15px;
+    padding-right:0;
+}
+.Labvmegamenu div.column.last {
+    border-right: 0 none;
+    margin-right: 0;
+    padding-right: 0;
+}
+.Labvmegamenu div.itemSubMenu {
+    margin-top:0;
+    margin-bottom:15px
+}
+.Labvmegamenu .clearBoth {
+    clear:both;
+}
+.Labvmegamenu .block2{
+    margin-top: 10px;
+/*    display: inline-block;*/
+}
+.Labvmegamenu #popup_home{
+    display: none !important;
+}
+.Labvmegamenu div.popup .block1{
+    overflow: hidden;
+	float:left;
+	display:inline;
+}
+.Labvmegamenu div.popup .block1 .column{
+}
+/*show right block*/
+.Labvmegamenu div.popup .floatleft{
+    float: left;
+}
+.Labvmegamenu div.popup .blockright img{
+    max-width: 100%;
+} 
+.Labvmegamenu .parentMenu .block-title{
+    color: #1E7EC8;
+}
+
+.Labvmegamenu div.lab_vermenu .parentMenu p{
+    margin: 0;
+    padding: 0;
+}
+.Labvmegamenu #lab_vermenu_link .parentMenu ul li{
+    float: none;
+    list-style: none;
+}
+.Labvmegamenu #lab_vermenu_link .parentMenu ul li a{
+    float: none;
+    padding: 5px 10px 6px;
+    display: block;
+}
+.Labvmegamenu #lab_vermenu_link{
+    padding: 0;
+    width: 195px;
+}
+.Labvmegamenu .wrap-popup{
+	left: 100%;
+    position: absolute;
+    top: 0;
+    width: 914px;
+}
+.Labvmegamenu .wrap-popup:after { display:block; content:"."; clear:both; font-size:0; line-height:0; height:0; overflow:hidden; }
+.Labvmegamenu div.lab_vermenu{
+    padding: 0 !important;
+}
+@media (min-width: 991px) and (max-width: 1024px)  {
+	.Labvmegamenu div.lab_vermenu .parentMenu a, .Labvmegamenu div.lab_vermenu .parentMenu span.block-title{
+		line-height:37px;
+	}
+	.Labvmegamenu div.column{
+		width:120px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px)  {
+	.labvmegamenu_title h2{
+		font-size:11px;
+	}
+	.labvmegamenu_title{
+		padding-left:40px;
+	}
+	.Labvmegamenu div.lab_vermenu .parentMenu a, .Labvmegamenu div.lab_vermenu .parentMenu span.block-title{
+		font-size:11px;
+		line-height: 26px;
+		padding:0 15px;
+	}
+	.Labvmegamenu div.lab_vermenu .parentMenu a .icon{
+		top: 8px;
+		left: 8px;
+	}
+	.Labvmegamenu{
+		min-height: auto;
+	}
+	
+	.box-popup{
+		padding:10px 20px;
+	}
+	.Labvmegamenu div.column{
+		width:110px;
+	}
+	.Labvmegamenu .itemverMenu h4.level3, .Labvmegamenu .itemverMenu a.level3{
+		font-size: 11px;
+		line-height: 28px;
+	}
+	.Labvmegamenu .itemSubMenu h4.level4, .Labvmegamenu .itemSubMenu a.level4, .Labvmegamenu .itemSubMenu h4.level3, .Labvmegamenu .itemSubMenu a.level3, .Labvmegamenu .itemverMenu a.level4.nochild{
+		font-size: 11px;
+		line-height: 20px;
+	}
+	.Labvmegamenu div.lab_vermenu .parentMenu a .icon-new, .Labvmegamenu div.lab_vermenu .parentMenu a .icon-hot{
+		font-size:7px;
+	}
+}
+
+/*============end megamenu==========================*/
